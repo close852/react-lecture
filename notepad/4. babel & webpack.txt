@@ -1,0 +1,10 @@
+바벨 설치 및 실행
+// npm install @babel/core @babel/cli @babel/preset-react
+// npx babel --watch src --out-dir . --presets @babel/preset-react
+
+웹팩 설치 및 실행
+<!-- npm install webpack webpack-cli react react-dom -->
+<!-- npx webpack -->
+
+* 바벨은 JSX문법을 JS로 변환
+* 웹팩은 여러개의 js를 한개로 합쳐줌.
