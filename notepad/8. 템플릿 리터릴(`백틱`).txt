@@ -1,0 +1,17 @@
+const msg =`name = ${name}, score/100: ${score/100}`;
+
+//태그된 템플릿 리터럴
+function taggedFunction(strings,...expressions){
+    console.log('strings',strings,'expressions', expressions)
+    return 123;
+}
+
+const v1= 10;
+const v2=20;
+const result = taggedFunction`a ${v1} b ${v2}`;
+console.log(result);
+
+표현식 두개를 기준으로 문자열이 분할됨
+
+strings = ['a ', 'b ', '']
+expressions = [10,20]
